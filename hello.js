@@ -1,11 +1,7 @@
-function doubleIt(num){
-    var result = num * 2;
+function dobuleIt(num1, num2){
+    var result = num1 + num2;
     return result;
 }
 
-var num1 = doubleIt(3);
-var num2 = doubleIt (65);
-
-var total = num1 + num2
-
-console.log(total);
+var total = dobuleIt(5, 6)
+console.log(total)
