@@ -1,11 +1,11 @@
-function sayAllhamdulliah(){
-    console.log("Allhamdulillah");
-    console.log("Allhamdulillah, sokol proshongsha Allahor");
+function doubleIt(num){
+    var result = num * 2;
+    return result;
 }
 
-sayAllhamdulliah();
-var date = "all time";
-var where = "all place";
-sayAllhamdulliah();
-var when = "every  time";
-sayAllhamdulliah();
+var num1 = doubleIt(3);
+var num2 = doubleIt (65);
+
+var total = num1 + num2
+
+console.log(total);
