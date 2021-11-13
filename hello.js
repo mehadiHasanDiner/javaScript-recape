@@ -1,5 +1,7 @@
 
+var friends = ["aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh"]
 
-for(var i=0; i<= 10; i++){
-    console.log(i);
+for(i = 0; i < friends.length; i++){
+    var element = friends[i];
+    console.log(element);
 }
