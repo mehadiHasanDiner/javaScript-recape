@@ -1,7 +1,7 @@
-function dobuleIt(num1, num2){
+function add(num1, num2){
     var result = num1 + num2;
-    return result;
+    console.log(result);
 }
 
-var total = dobuleIt(5, 6)
-console.log(total)
+add(5, 6);
+
