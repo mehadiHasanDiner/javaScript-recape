@@ -22,4 +22,4 @@ student2.hero = "Hero alam";
 student2["hero"] = "Shakib khan"
 
 console.log(phoneNo1);
-console.log(student2)
+console.log(student2);
