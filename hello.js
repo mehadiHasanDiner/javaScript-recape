@@ -1,6 +1,7 @@
 
 var student1 = {id:121, phone:19293, name:"Mahia mahi"};
 var student2 = {id:123, phone:18975, name:"Shakib"};
+var student3 = {id:123, phone:18975, name:"Tamim"};
 
 // object theke proparty access korar nioym 3ti
 
