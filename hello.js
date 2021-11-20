@@ -1,8 +1,9 @@
 
 
-function dobuleIt(num){
-    var result = num*2;
-    console.log(result)
+function dobuleIt(num1, num2){
+    var result = (num1+num2);
+    return result;
 }
 
-dobuleIt(25);
+var total = dobuleIt(34, 56);
+console.log(total);
