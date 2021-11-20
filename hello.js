@@ -1,9 +1,13 @@
 
-
-function dobuleIt(num1, num2){
-    var result = (num1+num2);
+function dobuleIt(num){
+    var result = num * 2;
     return result;
 }
 
-var total = dobuleIt(34, 56);
+var num1 = dobuleIt (3);
+var num2 = dobuleIt (5);
+var num3 = dobuleIt (6);
+
+var total = num1 + num2 + num3;
 console.log(total);
+
