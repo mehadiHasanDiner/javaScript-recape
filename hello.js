@@ -1,8 +1,8 @@
 
-var num = 25
-function dobuleIt(){
+
+function dobuleIt(num){
     var result = num*2;
-    console.log(result);
+    console.log(result)
 }
 
-dobuleIt();
+dobuleIt(25);
