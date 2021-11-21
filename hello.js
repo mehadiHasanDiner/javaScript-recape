@@ -1,8 +1,8 @@
 
-function add(number1, number2){
-    var total = number1 + number2;
-    return total;
+function largestNumber(numbers){
+    for(var i = 0; i < numbers.length; i++){
+        var element = numbers[i];
+        console.log(element);
+    }
 }
-
-add(889, 23);
-console.log(add(889, 23));
+largestNumber([56, 34, 40, 90]);
