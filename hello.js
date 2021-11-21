@@ -1,8 +1,8 @@
 
-var salary = [55, 65, 67, 89, 89, 78, 64, 56]
-
-for(var i = 0; i < salary.length; i++){
-    var element = salary[i];
-    console.log(element);
+function add(number1, number2){
+    var total = number1 + number2;
+    return total;
 }
 
+add(889, 23);
+console.log(add(889, 23));
