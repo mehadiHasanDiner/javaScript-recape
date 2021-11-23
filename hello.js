@@ -1,5 +1,5 @@
 
-function lowestNumberOf(number){
+function lowestNumber(number){
     var highest = number[0]
     for(var i = 0; i < number.length; i++){
         var element = number[i];
@@ -10,6 +10,6 @@ function lowestNumberOf(number){
     return highest;
 
 }
-var result = [98, 10, 102, 203, 333]
-var total = lowestNumberOf(result);
+var result = [98, 10, 102, 203, 333, 564]
+var total = lowestNumber(result);
 console.log(total);
