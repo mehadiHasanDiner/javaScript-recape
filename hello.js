@@ -10,6 +10,6 @@ function lowestNumber(number){
     return highest;
 
 }
-var result = [98, 10, 102, 203, 333, 564, 698]
+var result = [203, 333, 564, 698]
 var total = lowestNumber(result);
 console.log(total);
