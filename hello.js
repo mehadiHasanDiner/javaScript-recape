@@ -1,5 +1,5 @@
 
-function largestNumber(number){
+function lowestNumber(number){
     var highest = number[0]
     for(var i = 0; i < number.length; i++){
         var element = number[i];
@@ -11,5 +11,5 @@ function largestNumber(number){
 
 }
 var result = [98, 10, 102, 203, 333]
-var total = largestNumber(result);
+var total = lowestNumber(result);
 console.log(total);
