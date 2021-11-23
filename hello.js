@@ -10,6 +10,6 @@ function largestNumber(number){
     return highest;
 
 }
-var result = [12, 45, 36, 58, 98]
+var result = [12, 45, 36, 58, 98, 10, 102]
 var total = largestNumber(result);
 console.log(total);
