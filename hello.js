@@ -1,15 +1,16 @@
 
-function highestNumber(number){
-    var highest = number[0]
-    for(var i = 0; i < number.length; i++){
-        var element = number[i];
-        if(element > number){
-            element = highest;
+function bigNumber(numbers){
+    var larger = numbers[0]
+    for(var i = 0; i < numbers.length; i++){
+       var element = numbers[i];
+        if(element > larger){
+            larger = element;
         }
     }
-    return element;
-
+    return larger;
 }
-var result = [203, 333, 564, 698]
-var total = highestNumber(result);
-console.log(total);
+
+var numberArray = [586, 98, 696, 878, 205, 698]
+var result = bigNumber(numberArray)
+console.log(result);
+
